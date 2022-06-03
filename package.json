@@ -9,6 +9,7 @@
     "reset": "git reset --hard",
     "debug": "electron --inspect=5000 .",
     "build": "electron-builder -win --64 nsis:x64",
+    "build-win": "electron-builder build -w",
     "release": "electron-builder -w -p onTagOrDraft"
   },
   "repository": "https://github.com/DhavalkumarKavar/bookmarker",
@@ -25,6 +26,8 @@
     "nodemon": "^2.0.0"
   },
   "dependencies": {
+    "electron-log": "^4.4.7",
+    "electron-updater": "^5.0.1",
     "electron-window-state": "^5.0.3"
   },
   "build": {
