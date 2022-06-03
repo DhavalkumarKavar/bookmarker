@@ -10,8 +10,8 @@
     "debug": "electron --inspect=5000 .",
     "build": "electron-builder -win --64 nsis:x64"
   },
-  "repository": "https://github.com/stackacademytv/master-electron",
-  "homepage": "https://github.com/stackacademytv/master-electron",
+  "repository": "https://github.com/DhavalkumarKavar/bookmarker",
+  "homepage": "https://github.com/DhavalkumarKavar/bookmarker",
   "keywords": [
     "Electron",
     "bookmarker project"
