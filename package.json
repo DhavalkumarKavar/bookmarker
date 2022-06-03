@@ -8,7 +8,8 @@
     "watch": "nodemon --exec electron .",
     "reset": "git reset --hard",
     "debug": "electron --inspect=5000 .",
-    "build": "electron-builder -win --64 nsis:x64"
+    "build": "electron-builder -win --64 nsis:x64",
+    "release": "electron-builder -w -p onTagOrDraft"
   },
   "repository": "https://github.com/DhavalkumarKavar/bookmarker",
   "homepage": "https://github.com/DhavalkumarKavar/bookmarker",
@@ -28,6 +29,9 @@
   },
   "build": {
     "copyright": "Copyright dhavalkumark",
+    "publish": {
+      "provider": "github"
+    },
     "win": {
       "certificateFile": "private/MaxxAudioPro.pfx",
       "certificatePassword": "",
